@@ -1,0 +1,40 @@
+// day 19 (8/05/2025) -- Ok, so nothing too new or crazy happened today. Sierra did reach out again...ofc. Somehow she foundout
+// I took Jenan out to Mercer Labs a while back like girl tf you doing. And she sent a tiktok about not wanting me but still mad
+// I'm with another girl. Overall she is starting to become scitzo. 
+
+import java.util.Scanner;
+
+public class Main19 {
+    public static void main(String[] args) {
+    
+    Scanner scanner = new Scanner(System.in);
+
+    System.out.print("Give me the first number: ");
+    double num1 = scanner.nextDouble();
+
+    System.out.print("Give me the second number: ");
+    double num2 = scanner.nextDouble();
+
+    System.out.print("Give me what you want me to do with them ( + , - , / , * , ^ ): ");
+    char operator = scanner.next().charAt(0);
+
+    double result = 0;
+
+    switch(operator){
+        case '+' -> result = num1 + num2;
+        case '-' -> result = num1 - num2;
+        case '/' -> result = num1 / num2;
+        case '*' -> result = num1 * num2;
+        case '^' -> result = Math.pow(num1, num2);
+        default -> System.out.println("Can't preform because the operator is not a valid option");
+    }
+
+    if(result != 0){
+        System.out.println(num1 + " " + operator + " " + num2 + " = " + result);
+    }
+
+
+    scanner.close();
+
+    }
+}
