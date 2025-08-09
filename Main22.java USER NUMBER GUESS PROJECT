@@ -1,0 +1,35 @@
+// day 22 (8/09/2025) -- Ok, so I just finished setting up my bot that should hopefully trade stocks for me on its own. Will it work, probably not, but we can hope right.
+// I got this idea from tiktok with the new GPT-5 update, so it should work right. LIke imagine it does and I start making actual money from this. Passive income and shit.
+
+import java.util.Scanner;
+import java.util.Random;
+
+public class Main22 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        Random random = new Random();
+
+        int num = random.nextInt(10) + 1; // 1..10
+        int userGuess;
+
+        System.out.println("Try to guess the random number (1-10)");
+        
+        while (true) {
+            System.out.print("Enter your guess: ");
+            userGuess = scanner.nextInt();
+
+            if (userGuess == num) {
+                System.out.println("GOOD JOB!!! YOU GUESSED THE CORRECT NUMBER");
+                break;
+            } else if (userGuess < 1 || userGuess > 10) {
+                System.out.println("Out of range. Guess between 1 and 10.");
+            } else if (userGuess < num) {
+                System.out.println("WRONG. Hint: go HIGHER.");
+            } else {
+                System.out.println("WRONG. Hint: go LOWER.");
+            }
+        }
+
+        scanner.close();
+    }
+}
