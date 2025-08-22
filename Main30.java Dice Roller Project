@@ -1,0 +1,103 @@
+/* day 30 (8/22/2025) -- THE BOT FINALLY WORKKKSSSS. This is big now we just have to test it for a few weeks to see if its able to make me a profit. 
+
+*/
+
+import java.util.Scanner;
+import java.util.Random;
+
+public class Main30 {
+
+    static Scanner scanner = new Scanner(System.in);
+    static Random random = new Random();
+    static int rolesSum = 0;
+    static String decision = "";
+    static int diceRole = 0;
+    public static void main(String[] args) {
+
+        mainLoop();
+
+    
+        scanner.close();
+    }
+
+    static void mainLoop() {
+    System.out.print("Would you like to roll the die? Yes or No: ");
+    decision = scanner.nextLine();
+
+    while (decision.equalsIgnoreCase("Yes")) {
+        diceRole = random.nextInt(6) + 1;
+        rolesSum += diceRole;
+
+        if (diceRole == 1) {
+            one();
+        } else if (diceRole == 2) {
+            two();
+        } else if (diceRole == 3) {
+            three();
+        } else if (diceRole == 4) {
+            four();
+        } else if (diceRole == 5) {
+            five();
+        } else if (diceRole == 6) {
+            six();
+        }
+
+        System.out.println("Your added Roll Sum is " + rolesSum);
+        System.out.print("Would you like to roll again? Yes or No: ");
+        decision = scanner.nextLine();  // ask again before looping
+    }
+
+    // when they stop saying "Yes"
+    System.out.println("Game over. Your final Roll Sum is " + rolesSum);
+}
+
+    static void one(){
+        System.out.println("You roled a 1");
+        System.out.println("|-------|");
+        System.out.println("|       |");
+        System.out.println("|   *   |");
+        System.out.println("|       |");
+        System.out.println("|-------|");
+    }
+        static void two(){
+        System.out.println("You roled a 2");
+        System.out.println("|-------|");
+        System.out.println("| *     |");
+        System.out.println("|       |");
+        System.out.println("|     * |");
+        System.out.println("|-------|");
+    }
+        static void three(){
+        System.out.println("You roled a 3");
+        System.out.println("|-------|");
+        System.out.println("| *     |");
+        System.out.println("|   *   |");
+        System.out.println("|     * |");
+        System.out.println("|-------|");
+    }
+
+        static void four(){
+        System.out.println("You roled a 4");
+        System.out.println("|-------|");
+        System.out.println("| *   * |");
+        System.out.println("|       |");
+        System.out.println("| *   * |");
+        System.out.println("|-------|");
+    }
+        static void five(){
+        System.out.println("You roled a 5");
+        System.out.println("|-------|");
+        System.out.println("| *   * |");
+        System.out.println("|   *   |");
+        System.out.println("| *   * |");
+        System.out.println("|-------|");
+    }
+        static void six(){
+        System.out.println("You roled a 6");
+        System.out.println("|-------|");
+        System.out.println("| *   * |");
+        System.out.println("| *   * |");
+        System.out.println("| *   * |");
+        System.out.println("|-------|");
+    }
+} 
