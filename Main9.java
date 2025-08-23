@@ -1,5 +1,4 @@
-//day 9(7/18/2025) -- Had a second date with Jenan. Went great and we arranged 2 new dates next week. Also her birthday next week so imma get some gifts ig. 
-//And now Sierra asking me if I still like her like ughhh. 
+//day 9(7/18/2025)
 
 public class Main9 {
     public static void main(String[] args) {
