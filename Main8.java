@@ -1,6 +1,4 @@
-//day 8(7/15/2025) -- Ok, so nothing much really happened today. I did order tickets to Mercer labs cause i have a date tmrw with Jenan(WHICH I PRAY GOES WELL). other then
-//that nothing. The dorr guys came and that was super annoying cause like idk them being here is so inconvenient and annoying
-
+//day 8(7/15/2025
 
 import java.util.Random;
 
