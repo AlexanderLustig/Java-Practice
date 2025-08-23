@@ -1,6 +1,4 @@
-/* day 30 (8/22/2025) -- THE BOT FINALLY WORKKKSSSS. This is big now we just have to test it for a few weeks to see if its able to make me a profit. 
-
-*/
+// day 30 (8/22/2025) 
 
 import java.util.Scanner;
 import java.util.Random;
