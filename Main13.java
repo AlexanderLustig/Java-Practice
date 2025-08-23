@@ -1,6 +1,4 @@
-// day 13 (7/25/2025) -- Ughhh nothing that new today. I will say that i feel like ik why I feeel bad when Jenan doesnt text me. I think its cause like I'm just 
-//anxious that she doesn't. Like I dont think she is talking to ther guys or anything cause she never dated before so like ya. But just idk it jus sucks we dont text more.
-//On another note Sierra texted me yesterday AGAIN. And now I'm just playing along with her but I have legit 0 romantic feelings for her. Like in blank for her
+// day 13 (7/25/2025) 
 
 public class Main13 {
     public static void main(String[] args) {
