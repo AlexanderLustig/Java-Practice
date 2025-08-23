@@ -1,4 +1,4 @@
-//day 8(7/15/2025
+//day 8(7/15/2025)
 
 import java.util.Random;
 
