@@ -1,5 +1,4 @@
-// day 21 (8/08/2025) -- Ok, so I ordered most of the things necessary for Jenan's gift basket. But i made sure that everything can either be returned or used for another girl
-// cause tbh idk if its gonna work out with Jenan. Like she doesn't really show much interest in me and even though she says she likes me idk if I vibe with it. But we will see
+// day 21 (8/08/2025) 
 
 import java.util.Scanner;
 
