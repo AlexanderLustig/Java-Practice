@@ -1,6 +1,4 @@
-// day 28 (8/18/2025) -- So I created a discord bot that will just track the market and I place the trades cause that seemed to be the biggest issue with the bot is it 
-// placing the trades cause idk. So hopefuly that works. Also accidently subscribed to a crypto autotrader for a month, but they offer a refund so after a few day imma see how
-// it does and determine that. 
+// day 28 (8/18/2025) 
 
 public class Main28 {
 
