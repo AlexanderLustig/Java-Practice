@@ -1,5 +1,4 @@
-// day 16 (7/30/2025) -- Nothing too interesting today. The door to the bathroom finally was installed so that marks the end
-// to all the construction to the apt; atleast rn until mom decides to find something new
+// day 16 (7/30/2025) 
 
 public class Main16 {
     public static void main(String[] args) {
