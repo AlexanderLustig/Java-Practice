@@ -1,5 +1,4 @@
-//day 11(7/21/2025) -- Ughhh, not much to say reallly. finally got Sierra off my back. She texted me yesterday and tried to get me back like girl no tf. But whatever
-//its over now.Plus I have a date tmrw with Jenan so thats good
+//day 11(7/21/2025) 
 
 import java.util.Scanner;
 
